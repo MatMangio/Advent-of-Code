@@ -3,7 +3,7 @@ if __name__ == "__main__":
     total = []
     while (True):
         numStr = input()
-        if (numStr[0] == '\x04'): break
+        if (len(numStr) < 1): break
         for i in range(len(numStr)):
             if i < len(total):
                 total[i] = total[i] + int(numStr[i])
