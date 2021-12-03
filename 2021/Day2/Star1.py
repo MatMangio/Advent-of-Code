@@ -13,4 +13,4 @@ if __name__ == "__main__":
             y += int(parsedInput[1])
         else:
             y -= int(parsedInput[1])
-    print("\nRisultato:", x * y);
+    print("\nRisultato:", x * y)
