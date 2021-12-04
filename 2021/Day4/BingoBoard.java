@@ -11,7 +11,7 @@ import java.util.Scanner;
  *      77  49  56  53  27
  */
 
-public class BingoBoard {
+public class BingoBoard implements Iterable<BingoBoard.Cell> {
     //Attributes
     /**
      * The matrix of Cells storing the state of the board
