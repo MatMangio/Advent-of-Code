@@ -18,6 +18,7 @@ public class Star1 {
         while(in.hasNext()) {
             boards.add(new BingoBoard(in, 5));
         }
+        in.close();
 
         //Infere the winning board
         int last = 0;

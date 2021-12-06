@@ -19,8 +19,7 @@ public class Star2 {
         while(in.hasNext()) {
             boards.add(new BingoBoard(in, 5));
         }
-
-        System.out.println(boards.get(1).contains(16));
+        in.close();
 
         //Infere the losing board
         int last = 0;
